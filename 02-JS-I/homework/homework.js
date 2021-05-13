@@ -68,14 +68,14 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-    if (str1.length === str2.length) return true;
+    if (str1.length == str2.length) return true;
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-if (num < 90) return true;
+  if (num<90) return true;
   return false;
 }
 
@@ -195,14 +195,14 @@ return alto * ancho;
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return Lado*4;
+  return (Lado*4);
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  return (base*altura)/2;
+  return ((base*altura)/2);
 }
 
 
