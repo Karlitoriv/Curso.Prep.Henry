@@ -104,12 +104,29 @@ function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
   
+  // 345 ==> "345"
+  // c d u
+  let contador = 0;
+  while (numero >= 1) {
+    numero = umero/10;
+    contador++;
 }
+if (contador === 3) return true;
+  else return false;
+
+
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+let 1 = 0;
+do{
+  numero = numero + 5
+  i ++ }
+while (i < 8)
+return numero;
+
 }
 
 
