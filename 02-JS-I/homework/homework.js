@@ -68,7 +68,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-    if (str1.length == str2.length) return true;
+    if (str1.length === str2.length) return true;
 }
 
 function menosQueNoventa(num) {
@@ -119,7 +119,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  reuturn (num * num);
+  return (num * num);
 }
 
 function elevarAlCubo(num) {
@@ -159,8 +159,8 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero>0) return 'Es positivo';
-  if (numero<0) return 'es negat';
-  if (num === 0) return false;
+  if (numero<0) return 'es negativo';
+  if (numero === 0) return false;
 }
 
 function agregarSimboloExclamacion(str) {
@@ -195,7 +195,7 @@ return alto * ancho;
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return (Lado*4);
+  return (lado*4);
 }
 
 
@@ -221,7 +221,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.length>1) return "Dato Incorrecto";
-  if (Letra === 'a' || Letra ==='e' || Letra === 'i' || Letra === 'o' || Letra === 'u') return "Es Vocal";
+  if (Letra === 'a' || Letra ==='e' || Letra === 'i' || Letra === 'o' || Letra === 'u') return "Es vocal";
 }
 
 
