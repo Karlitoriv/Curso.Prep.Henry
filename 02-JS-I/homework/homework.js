@@ -171,11 +171,10 @@ function agregarSimboloExclamacion(str) {
   return str + '!';
 }
 
-function combinarNombres(nombre, _apellido) {
+function combinarNombres(nombre) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre + ' ' + 'world';
   return nombre + ' ' + 'Henry';
 }
 
