@@ -69,6 +69,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
     if (str1.length === str2.length) return true;
+    return false;
 }
 
 function menosQueNoventa(num) {
@@ -170,11 +171,12 @@ function agregarSimboloExclamacion(str) {
   return str + '!';
 }
 
-function combinarNombres(nombre, apellido) {
+function combinarNombres(nombre, _apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   return nombre + ' ' + 'world';
+  return nombre + ' ' + 'Henry';
 }
 
 function obtenerSaludo(nombre) {
