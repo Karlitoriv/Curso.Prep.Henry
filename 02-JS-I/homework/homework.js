@@ -160,7 +160,7 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero>0) return 'Es positivo';
-  if (numero<0) return 'es negativo';
+  if (numero<0) return 'Es negativo';
   if (numero === 0) return false;
 }
 
@@ -175,7 +175,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre + ' ' + 'apellido';
+  return nombre + ' ' + apellido;
 }
 
 function obtenerSaludo(nombre) {
@@ -211,7 +211,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 1,20;
+  return euro * 1.20;
   
 }
 
@@ -221,8 +221,8 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra.length>1) return "Dato Incorrecto";
-  if (Letra === 'a' || Letra ==='e' || Letra === 'i' || Letra === 'o' || Letra === 'u') return "Es vocal";
+  if (letra.length>1) return "Dato incorrecto";
+  if (letra === 'a' || letra ==='e' || letra === 'i' || letra === 'o' || letra === 'u') return "Es vocal";
 }
 
 
